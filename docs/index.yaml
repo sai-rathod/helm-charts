@@ -3,7 +3,7 @@ entries:
   DBhelm:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-08-26T13:49:42.964298886+05:30"
+    created: "2025-08-26T14:37:55.622203331+05:30"
     description: A Helm chart for Kubernetes
     digest: 19b38a66ee38f8bc5aa4bc9d73b566324a8d3d46aaeebd1fceba4053debf691a
     name: DBhelm
@@ -11,10 +11,22 @@ entries:
     urls:
     - DBhelm-0.1.0.tgz
     version: 0.1.0
+  python-app:
+  - apiVersion: v2
+    created: "2025-08-26T14:37:55.622480095+05:30"
+    dependencies:
+    - name: sepPostgres
+      repository: https://sai-rathod.github.io/helm-charts/
+      version: 0.1.0
+    digest: f50e601416cc1f85ecde2c32d1339406a78397dd2b380e4de2efb13e70d274a6
+    name: python-app
+    urls:
+    - python-app-0.1.0.tgz
+    version: 0.1.0
   sepPostgres:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-08-26T13:49:42.965024848+05:30"
+    created: "2025-08-26T14:37:55.624112983+05:30"
     description: A Helm chart for Kubernetes
     digest: 13f657fe8074b4ad034ee4ca65f94e720c0ce184b52ab718abed40327b6c8dfb
     name: sepPostgres
@@ -22,4 +34,4 @@ entries:
     urls:
     - sepPostgres-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-26T13:49:42.960506126+05:30"
+generated: "2025-08-26T14:37:55.621276036+05:30"
